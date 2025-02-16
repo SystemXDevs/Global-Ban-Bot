@@ -1,0 +1,14 @@
+{
+  "token": "Token here",
+  "clientId": "",
+  "guildId": "6",
+  "ownerId": "",
+  "permissionRole": "",
+  "logChannel": "3",
+  "appealLogChannel": "",
+  "allowedGuilds": [
+    "1253720578527854674",
+    "1251848648304627786"
+  ],
+  "appealServerInvite": "https://discord.gg/SERVER"
+}
