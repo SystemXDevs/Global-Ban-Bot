@@ -38,7 +38,7 @@ Edit the `config.json` file and update the following values:
 ### **4. Deploy the Commands to Discord**  
 Run the following command to register the bot's commands:  
 ```sh
-node deploy-commands.js
+node bot.js
 ```
 
 ### **5. Start the Bot**  
