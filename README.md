@@ -35,19 +35,14 @@ Edit the `config.json` file and update the following values:
 }
 ```
 
-### **4. Deploy the Commands to Discord**  
-Run the following command to register the bot's commands:  
-```sh
-node bot.js
-```
 
-### **5. Start the Bot**  
+### **4. Start the Bot**  
 Once everything is set up, start the bot with:  
 ```sh
-node index.js
+node bot.js
 ```
 
 ---
 
 ## **Need Help?**  
-If you run into any issues, feel free to open an issue on my GitHub page. Thanks for using the bot, and I hope it helps your community! 😊
+If you run into any issues, feel free to open an issue on my GitHub page or dm on discord system32x64. Thanks for using the bot, and I hope it helps your community! 😊
