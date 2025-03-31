@@ -1,11 +1,11 @@
 {
-  "token": "Token here",
-  "clientId": "",
-  "guildId": "6",
-  "ownerId": "",
-  "permissionRole": "",
-  "logChannel": "3",
-  "appealLogChannel": "",
+  "token": "Your_Discord_Bot_Token",
+  "clientId": "Your_Client_ID",
+  "guildId": "Your_Guild_ID",
+  "ownerId": "Your_Owner_ID",
+  "permissionRole": "Role_ID",
+  "logChannel": "Log_Channel_ID",
+  "appealLogChannel": "Appeal_Log_Channel_ID",
   "allowedGuilds": [
     "1253720578527854674",
     "1251848648304627786"
