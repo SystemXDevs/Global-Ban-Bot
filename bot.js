@@ -4,22 +4,13 @@ const { Routes } = require('discord-api-types/v9');
 const fs = require('fs');
 
 const configPath = './config.json';
+let config = {};
 
-let config = {
-    token: "",// Discord Token
-    clientId: "", // Discord Bot ClientID
-    guildId: "",// Guild ID
-    ownerId: "",// Owner ID
-    permissionRole: null,
-    logChannel: null,
-    appealLogChannel: "", //AppealLogChannel ID
-    allowedGuilds: ["BCSO SERVER ID ", "SAST SERVER ID", "LAPD SERVER ID", "AND MORE!","MORE","MORE","MORE","MORE","MORE"],// YOU CAN ADD MORE OR REMOVE THEM TO AD MORE JUST ADD  ,"ADD"
-    appealServerInvite: "https://discord.gg/SERVER"// DISCORD INVITE LINK TO A APPLE DISCORD SERVER
-};
-
-// Load configuration from file if it exists
 if (fs.existsSync(configPath)) {
     config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+} else {
+    console.error('Configuration file missing! Please create config.json');
+    process.exit(1);
 }
 
 const client = new Client({ 
@@ -29,6 +20,7 @@ const client = new Client({
         Intents.FLAGS.GUILD_MEMBERS 
     ]
 });
+
 
 const commands = [
     {
